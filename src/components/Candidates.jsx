@@ -16,10 +16,12 @@ const Candidates = () => {
                 <h1 className='font-semibold text-[30px] text-center mt-3 mb-1'>{data.name}</h1>
                 <p className='text-center'>{data.level}</p>
                 <div className='text-center flex-col flex gap-4 mt-8'>
-                    <button className=' bg-[#00906C] text-white hover:bg-[#014534] rounded-xl font-bold text-xl py-2'>VOTE</button>
-                    <a href="/profile">
-                      <button className='text-center text-[#00906C] bg-white border-2 border-[#00906C] hover:text-[#014534] rounded-xl font-bold text-xl py-2 px-8'>View Profile</button>
-                    </a>
+                  <a href="/vote">
+                    <button className=' bg-[#00906C] text-white hover:bg-[#014534] rounded-xl font-bold text-xl py-2 w-full'>VOTE</button>
+                  </a>
+                  <a href="/profile">
+                    <button className='text-center text-[#00906C] bg-white border-2 border-[#00906C] hover:text-[#014534] w-full rounded-xl font-bold text-xl py-2 px-8'>View Profile</button>
+                  </a>
                 </div>
                 </div>
             )

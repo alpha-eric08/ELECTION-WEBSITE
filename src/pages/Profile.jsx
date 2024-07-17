@@ -34,14 +34,14 @@ const handleabout = () =>{
             <button className=' hover:text-[#00906C] text-black hover:border-b-2 border-[#00906c] font-medium  md:text-4xl px-7'>Contacts</button>
           </div>
           {/* About */}
-          {/* <div>
+           <div>
             <h1 className="font-semibold text-5xl my-8">Biography</h1>
             <p>Lorem ipsum dolor sit amet consectetur. Donec feugiat cras adipiscing ipsum nullam felis. Sed pretium pharetra velit lectus libero viverra lectus donec. Mi at in ut lacinia id donec non. Placerat ornare semper amet enim feugiat.</p>
             <h1 className="font-semibold text-5xl mt-12 mb-8">Election Manifesto</h1>
             <p>Lorem ipsum dolor sit amet consectetur. Donec feugiat cras adipiscing ipsum nullam felis. Sed pretium pharetra velit lectus libero viverra lectus donec. Mi at in ut lacinia id donec non. Placerat ornare semper amet enim feugiat.</p>
-          </div> */}
+          </div> 
           {/* Contact */}
-          <div>
+          {/* <div>
             <h1 className="font-semibold text-5xl my-8">Social Media Networks</h1>
             <div className=" text-[#00906C] hover:text-[#164237]  flex gap-10">
               <FaLinkedinIn size={45} />
@@ -56,7 +56,7 @@ const handleabout = () =>{
                 <IoMdSend className="text-4xl text-right" />
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="flex justify-center mt-12">
               <button className=' bg-[#00906C] text-white hover:bg-[#014534] rounded-xl font-bold text-xl py-2 px-32'>VOTE</button>
           </div>

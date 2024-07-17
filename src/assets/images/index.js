@@ -8,5 +8,7 @@ import pres3 from "./pres3.png";
 import sec1 from "./sec1.png";
 import sec2 from "./sec2.png";
 import sec3 from "./sec3.png";
+import succss from "./succss.png";
+import aboutimage from "./aboutimage.png";
 
-export { signup, signin, logo, Caro1, pres1, pres2, pres3, sec1, sec2, sec3};
+export { signup, signin, logo, Caro1, pres1, pres2, pres3, sec1, sec2, sec3, aboutimage, succss};
