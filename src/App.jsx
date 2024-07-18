@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Vote from "./pages/Vote";
 import Confirmvote from "./pages/Confirmvote";
 import Sucessful from "./pages/Sucessful";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/vote" element={<Vote />} />
         <Route path="/confirmvote" element={<Confirmvote />} />
         <Route path="/sucessful" element={<Sucessful />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </Router>
